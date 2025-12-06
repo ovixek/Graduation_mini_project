@@ -3,7 +3,6 @@
   <img src="https://img.shields.io/badge/Platform-Arduino%20Nano-00979D?style=for-the-badge&logo=arduino&logoColor=white" />
   <img src="https://img.shields.io/badge/Sensors-IR%20Blink%20Sensor-orange?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Status-Working-brightgreen?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Language-C/C++-blueviolet?style=for-the-badge&logo=c" />
   <img src="https://img.shields.io/badge/Power-9V%20Battery-yellow?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Alert-Buzzer%20%2B%20Motor-red?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Maintainer-Abhishek%20Pujari-green?style=for-the-badge" />
