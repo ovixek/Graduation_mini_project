@@ -48,7 +48,7 @@ Whenever the driver’s eyes remain closed beyond a safe threshold, the system a
 
  Low-cost design suitable for mass implementation
 
-# Hardware Used
+# Hardware Used:
 
 Arduino Nano
 
@@ -66,7 +66,7 @@ SPST Switch
 
 Eye-glasses mounted sensor setup
 
-# Circuit Connections
+# Circuit Connections:
 
 IR Sensor:
 
@@ -99,3 +99,19 @@ Switch
 Battery + → Switch → Arduino Vin
 
 Battery – → GND
+
+# How It Works:
+
+The IR sensor detects eye movement and determines whether the eye is open or closed.
+
+If the eye remains closed for a duration beyond the safe threshold:
+
+Buzzer turns ON with intermittent beeps
+
+BO motor activates, creating vibration
+
+When the driver opens their eyes again:
+
+Alerts turn OFF automatically
+
+All logic is executed on the Arduino Nano using a simple digital input-output system.
