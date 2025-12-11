@@ -10,7 +10,7 @@
 
 ## Anti-Sleep Alarm for Drivers
 
-A simple yet effective Arduino-based safety system designed to detect driver drowsiness and alert them instantly through sound and vibration. This project aims to minimize road accidents caused due to fatigue by continuously monitoring eye-blink patterns using an IR sensor and triggering alerts whenever the system detects prolonged eye closure.
+A simple yet effective Arduino-based safety system designed to detect driver drowsiness and alert them instantly through sound and gradual speed reduction. This project aims to minimize road accidents caused due to fatigue by continuously monitoring eye-blink patterns using an IR sensor and triggering alerts whenever the system detects prolonged eye closure.
 
 # Project Overview
 
@@ -24,7 +24,7 @@ Arduino Nano to process the sensor data
 
 Piezo buzzer for alert beeps
 
-BO Motor for vibration alerts
+BO Motor to mimic the engine.
 
 Relay to control the motor
 
@@ -38,7 +38,7 @@ Whenever the driver’s eyes remain closed beyond a safe threshold, the system a
 
  Audible emergency alert through buzzer
 
- Haptic alert using BO motor
+ Speed reduction using BO motor
 
  Automatic ON/OFF response based on eye-blink status
 
@@ -108,7 +108,7 @@ If the eye remains closed for a duration beyond the safe threshold:
 
 Buzzer turns ON with intermittent beeps
 
-BO motor activates, creating vibration
+BO motor speed gradually decreases
 
 When the driver opens their eyes again:
 
